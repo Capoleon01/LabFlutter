@@ -65,9 +65,10 @@ Widget _usuario() {
       onValueChanged: (value) {});
 }
 
-Widget _contraseña(){
+Widget _contrasena() {
   return TextFormField(
     autofocus: false,
-    keyboardType: ,
+    keyboardType: TextInputType.text,
+    obscureText: true,
   );
 }
