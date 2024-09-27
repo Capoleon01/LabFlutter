@@ -23,6 +23,8 @@ class RegistroScreen extends StatelessWidget {
                     const SizedBox(),
                     _usuario(),
                     const SizedBox(),
+                    _contrasena(),
+                    const SizedBox(),
                   ],
                 )),
               ),
@@ -66,9 +68,17 @@ Widget _usuario() {
 }
 
 Widget _contrasena() {
-  return TextFormField(
-    autofocus: false,
-    keyboardType: TextInputType.text,
+  return CustomInputField(
+    hintText: 'Constraseña',
+    labelText: 'Contraseña',
     obscureText: true,
+    icon: Icons.lock_outline,
+    colorIcons: Colors.greenAccent,
+    colorBorde: Colors.black,
+    keyboardType: TextInputType.text,
+    colorLabeltext: Colors.white,
+    mensajeIf: 'Por favor de  poner una contraseña',
+    tipoVariable: '',
+    onValueChanged: (value) {},
   );
 }

@@ -1,6 +1,6 @@
-# capo_store
+# Laboratorio
 
-A new Flutter project.
+Esta es un proyecto donde probare diferentes librerias y conceptos para entender su funcionamiento en Flutter
 
 ## Getting Started
 
