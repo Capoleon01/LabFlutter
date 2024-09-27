@@ -2,6 +2,10 @@
 
 Esta es un proyecto donde probare diferentes librerias y conceptos para entender su funcionamiento en Flutter
 
+## La primer libreria (actual) es mysql1
+
+Se haran varios ejemplos de query y se intentara hacer uso de seguridad para que ustedes sepan que show se explica detalladamente de mi mano en el siguiente blog [capoleon01.blogspot.com](https://capoleon01.blogspot.com/)
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.

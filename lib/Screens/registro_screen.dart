@@ -25,6 +25,7 @@ class RegistroScreen extends StatelessWidget {
                     const SizedBox(),
                     _contrasena(),
                     const SizedBox(),
+                    _verificacionContrasena(),
                   ],
                 )),
               ),
@@ -78,6 +79,22 @@ Widget _contrasena() {
     keyboardType: TextInputType.text,
     colorLabeltext: Colors.white,
     mensajeIf: 'Por favor de  poner una contraseña',
+    tipoVariable: '',
+    onValueChanged: (value) {},
+  );
+}
+
+Widget _verificacionContrasena() {
+  return CustomInputField(
+    hintText: 'Verificacion de Constraseña',
+    labelText: 'Verificacion de Contraseña',
+    obscureText: true,
+    icon: Icons.lock_outline,
+    colorIcons: Colors.greenAccent,
+    colorBorde: Colors.black,
+    keyboardType: TextInputType.text,
+    colorLabeltext: Colors.white,
+    mensajeIf: 'Por favor de  poner la contraseña que coincida',
     tipoVariable: '',
     onValueChanged: (value) {},
   );
